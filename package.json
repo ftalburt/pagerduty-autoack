@@ -1,0 +1,22 @@
+{
+  "name": "pagerduty-autoack",
+  "version": "1.0.0",
+  "description": "Check for and automatically acknowledge/resolve PagerDuty incidents",
+  "main": "pagerduty-autoack.js",
+  "scripts": {
+    "start": "node pagerduty-autoack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftalburt/pagerduty-autoack.git"
+  },
+  "author": "Forrest Talburt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ftalburt/pagerduty-autoack/issues"
+  },
+  "homepage": "https://github.com/ftalburt/pagerduty-autoack#readme",
+  "dependencies": {
+    "node-pagerduty": "^1.1.6"
+  }
+}
